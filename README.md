@@ -102,6 +102,17 @@ for name, model in models.items():
 
 - Avoid repeated contacts:
    - High `campaign` count reduces chance of success.
+## Project Analysis:
+- This project analyzes a Portuguese bank’s marketing campaign data to predict term deposit subscriptions.
+- The dataset includes client demographics, previous contacts, and economic indicators.
+- Initial data cleaning addressed unknown values using mode imputation.
+- One-hot encoding was applied to categorical variables to prepare the data for modeling.
+- SMOTE was used to balance the dataset due to class imbalance.
+- Various models were trained: Logistic Regression, Decision Tree, Random Forest, KNN, SVM, and XGBoost.
+- Model performance was compared using Accuracy, Precision, Recall, and F1 Score.
+- XGBoost performed the best overall with an F1 Score of ~0.3788 and Accuracy of ~89.6%.
+- Confusion Matrix and Classification Reports revealed moderate recall but good precision for the positive class.
+- The bank should prioritize targeting clients with specific job roles, previous successful contact, and cellular contact type.
 ## Conclusion
 - A complete EDA and preprocessing flow was created.
 - Best model: XGBoost with highest accuracy and F1-score.
