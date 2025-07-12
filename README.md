@@ -117,3 +117,7 @@ for name, model in models.items():
 - A complete EDA and preprocessing flow was created.
 - Best model: XGBoost with highest accuracy and F1-score.
 - Key recommendations were drawn from patterns in the data.
+
+## FeedBack From Team:
+
+<img width="1079" height="414" alt="Project Feedback from Team" src="https://github.com/user-attachments/assets/4392f386-f5ad-4977-8152-8213d5b9ba56" />
